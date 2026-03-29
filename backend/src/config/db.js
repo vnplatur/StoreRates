@@ -1,5 +1,7 @@
 import "../../env.js"; // load the environment variable from .env
+import dotenv from "dotenv";
 
+dotenv.config();
 import mysql from "mysql2";
 
 const db = mysql.createConnection({
