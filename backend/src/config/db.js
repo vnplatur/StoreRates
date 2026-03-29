@@ -20,6 +20,16 @@ db.query(`
       rating DECIMAL(2,1) DEFAULT 0 CHECK (rating >= 0 AND rating <= 5)
     )
   `);
+db.query(`
+    CREATE TABLE IF NOT EXISTS users (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      name VARCHAR(100),
+      email VARCHAR(100),
+      address VARCHAR(100),
+      password VARCHAR(100),
+      role VARCHAR(100)
+    )
+  `);
 
 db.connect((err) => {
   if (err) throw err;
