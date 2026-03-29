@@ -3,10 +3,10 @@ import "../../env.js"; // load the environment variable from .env
 import mysql from "mysql2";
 
 const db = mysql.createConnection({
-  host: process.env.DB_HOST || "localhost",
-  user: process.env.DB_USER || "root",
-  password: process.env.DB_PASSWORD || "root",
-  database: process.env.DB_NAME || "storereating",
+  host: process.env.MYSQLHOST || "localhost",
+  user: process.env.MYSQLUSER || "root",
+  password: process.env.MYSQLPASSWORD || "root",
+  database: process.env.MYSQLDATABASE || "storereating",
 });
 
 db.query(`
