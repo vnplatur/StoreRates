@@ -9,6 +9,7 @@ const db = mysql.createConnection({
   user: process.env.MYSQLUSER || "root",
   password: process.env.MYSQLPASSWORD || "root",
   database: process.env.MYSQLDATABASE || "storereating",
+  port: process.env.MYSQLPORT || 3306
 });
 
 db.query(`
