@@ -1,0 +1,152 @@
+.dashboardContainer {
+  padding: 40px;
+  background: #f6f8fb;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.header p {
+  color: #6b7280;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.statCard {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 18px rgba(0,0,0,0.06);
+  transition: transform 0.2s;
+}
+
+.statCard:hover {
+  transform: translateY(-4px);
+}
+
+.statCard span {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.statCard h3 {
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+.statCardLarge {
+  width: 250px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 18px rgba(0,0,0,0.06);
+}
+
+.search {
+  padding: 12px;
+  width: 320px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.storeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px,1fr));
+  gap: 20px;
+}
+
+.storeCard {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 18px rgba(0,0,0,0.06);
+  transition: transform 0.2s;
+}
+
+.storeCard:hover {
+  transform: translateY(-4px);
+}
+
+.storeCard h3 {
+  margin-bottom: 5px;
+}
+
+.storeCard p {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.ratingRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.primaryBtn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.primaryBtn:hover {
+  background: #4338ca;
+}
+
+.tableContainer {
+  margin-top: 30px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 18px rgba(0,0,0,0.06);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  text-align: left;
+  padding: 12px;
+  background: #f3f4f6;
+  font-weight: 600;
+}
+
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.table tr:hover {
+  background: #f9fafb;
+}
