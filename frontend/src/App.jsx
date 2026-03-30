@@ -6,9 +6,10 @@ import Navbar from './components/Navbar'
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Shops from './pages/Shops';
+import Home from './pages/Home';
 
 
-const Home = () => <h2>Home Page</h2>;
+// const Home = () => <h2>Home Page</h2>;
 // const Shops = () => <h2>Shops Page</h2>;
 
 function App() {

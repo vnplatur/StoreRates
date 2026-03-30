@@ -1,0 +1,92 @@
+.container {
+  font-family: "Inter", sans-serif;
+}
+
+/* HERO */
+
+.hero {
+  background: linear-gradient(120deg,#4f46e5,#6366f1);
+  color: white;
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.heroText {
+  max-width: 700px;
+  text-align: center;
+}
+
+.heroText h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.heroText p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.primaryBtn {
+  text-decoration: none;
+  background: white;
+  color: #4f46e5;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.secondaryBtn {
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+}
+
+/* FEATURES */
+
+.features {
+  padding: 70px 40px;
+  background: #f5f7fb;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 40px;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 18px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+/* CTA */
+
+.cta {
+  padding: 70px 40px;
+  text-align: center;
+}
+
+.cta h2 {
+  margin-bottom: 20px;
+}
