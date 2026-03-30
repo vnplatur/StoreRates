@@ -1,4 +1,4 @@
-import "./env.js"; // load the environment variable from .env
+// import "./env.js"; // load the environment variable from .env
 import express from "express";
 import cors from "cors";
 import userRoutes from "./src/routes/userRoutes.js";
